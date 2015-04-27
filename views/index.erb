@@ -1,7 +1,17 @@
-<h1>Triangles</h1>
 <form action="/triangles">
-  <input id="side_1" name="side_1" type="number">
-  <input id="side_2" name="side_2" type="number">
-  <input id="side_3" name="side_3" type="number">
-  <button type="submit">Submit</button>
+  <div class="form-group">
+    <div class="custom-input">
+      <label for="side_1">Side 1</label>
+      <input id="side_1" name="side_1" type="number" class="form-control" required>
+    </div>
+    <div class="custom-input">
+      <label for="side_2">Side 2</label>
+      <input id="side_2" name="side_2" type="number" class="form-control" required>
+    </div>
+    <div class="custom-input">
+      <label for="side_3">Side 3</label>
+      <input id="side_3" name="side_3" type="number" class="form-control" required>
+    </div>
+  </div>
+  <button type="submit" class="custom-btn">Submit</button>
 </form>

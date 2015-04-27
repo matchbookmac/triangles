@@ -1,3 +1,12 @@
 <p>
   Your triangle is an <%= @result %> triangle
+  <% if @triangle.equilateral?() %>
+    <img class="custom-img" src="./equilateral.gif">
+  <% end %>
+  <% if @triangle.isosceles?() %>
+    <img class="custom-img" src="./isosceles.gif">
+  <% end %>
+  <% if @triangle.scalene?() %>
+    <img class="custom-img" src="./scalene.jpg">
+  <% end %>
 </p>

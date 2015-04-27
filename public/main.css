@@ -1,0 +1,33 @@
+body {
+  background-color: #C2523A;
+}
+
+.container {
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 0em 1em 2em 1em;
+  margin: 4em;
+  text-align: center;
+}
+
+.form-control {
+  display: inline-block;
+  width: 85%;
+}
+
+.custom-input {
+  margin-bottom: 1em;
+}
+
+.custom-btn {
+  background-color: #16808D;
+  color: #ffffff;
+  border-radius: 5px;
+}
+
+.custom-img {
+  display: block;
+  width: 30%;
+  height: inherit;
+  margin: 0 auto;
+}
