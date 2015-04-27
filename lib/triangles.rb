@@ -13,4 +13,11 @@ class Triangle
   define_method(:equilateral?) do
     triangle? && (@side_1 == @side_2 && @side_2 == @side_3)
   end
+
+  define_method(:isosceles?) do
+    triangle? && ( (@side_1.==(@side_2) | @side_1.==(@side_3) | @side_2.==(@side_3)) && (!(@side_1.==(@side_2)) | !(@side_1.==(@side_3)) | !(@side_2.==(@side_3))) )
+  end
+  define_method(:scalene?) do
+    triangle? && (!(@side_1.==(@side_2)) && !(@side_1.==(@side_3)) && !(@side_2.==(@side_3)))
+  end
 end
